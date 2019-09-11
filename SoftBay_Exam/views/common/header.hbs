@@ -1,0 +1,14 @@
+<nav class="navbar navbar-light bg-light static-top">
+    <div class="container">
+        <a class="navbar-brand" href="#/home">SoftBay</a>
+        {{#if isAuthenticated}}
+        <a class="navbar-item" href="#/offers/dashboard">Dashboard</a>
+        <a class="navbar-item" href="#/offers/create">Create Offer</a>
+        <!--BONUS (NOT REQUIRED)--><a class="navbar-item" href="#/user/profile">Profile</a>
+        <a class="navbar-item" href="#/user/logout">Logout</a>
+        <!--BONUS (NOT REQUIRED)-->
+        {{else}}
+        <a class="btn btn-warning" href="#/user/login">Login</a>
+        {{/if}}
+    </div>
+</nav>
