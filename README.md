@@ -1,1 +1,2 @@
 # SoftBay
+run npm install!!
