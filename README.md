@@ -1,2 +1,2 @@
-# SoftBay
-run npm install!!
+# SoftBay Project
+Run npm install before usage
